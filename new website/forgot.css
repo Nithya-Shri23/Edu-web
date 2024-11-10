@@ -1,0 +1,70 @@
+body{
+    background-color: #010917;
+}
+.forgot-password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+   
+}
+.forgot-password-box {
+   padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 400px;
+ 
+    background: linear-gradient( #11305b, #0665d9);
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.125);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
+                0 0 15px rgba(0, 255, 255, 0.5), /* Outer glow */
+                inset 0 0 15px rgba(0, 255, 255, 0.5); /* Inner glow */
+    
+    color: white;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+}
+
+.forgot-password-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    width: 450px;
+    margin-left: 10px;
+    line-height: 35px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 300px;
+    padding: 10px;
+    background-color:#010917;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: black;
+}
+
+
